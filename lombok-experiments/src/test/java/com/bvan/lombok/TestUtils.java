@@ -16,7 +16,6 @@ public class TestUtils {
                 if (stream == null) {
                     throw new RuntimeException("Incorrect resource path: " + resourceName);
                 }
-                System.out.println(resourceName);
                 return new BufferedReader(new InputStreamReader(stream))
                         .lines().collect(Collectors.joining("\n"));
             }

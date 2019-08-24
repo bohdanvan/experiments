@@ -10,8 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <lombok.version>1.18.4</lombok.version>
-        <jackson.version>2.9.7</jackson.version>
+        <lombok.version>1.18.8</lombok.version>
+        <jackson.version>2.9.6</jackson.version>
     </properties>
 
     <artifactId>lombok-experiments</artifactId>
