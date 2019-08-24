@@ -15,20 +15,4 @@ public class Movie {
     private final int releaseYear;
     private final List<Actor> actors;
     private final Set<Genre> genres;
-
-    @Value
-    @Builder
-    public static class Actor {
-
-        @JsonProperty("name")
-        private final String firstName;
-        @JsonProperty("surname")
-        private final String lastName;
-    }
-
-    public enum Genre {
-        COMEDY,
-        DRAMA,
-        ACTION
-    }
 }
