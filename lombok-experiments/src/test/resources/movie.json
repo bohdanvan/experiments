@@ -1,0 +1,22 @@
+{
+  "title": "Once Upon a Time... in Hollywood",
+  "year": 2019,
+  "actors": [
+    {
+      "name": "Leonardo",
+      "surname": "DiCaprio"
+    },
+    {
+      "name": "Brad",
+      "surname": "Pitt"
+    },
+    {
+      "name": "Margot",
+      "surname": "Robbie"
+    }
+  ],
+  "genres": [
+    "COMEDY",
+    "DRAMA"
+  ]
+}
